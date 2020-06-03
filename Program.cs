@@ -22,14 +22,14 @@ namespace Aula09Calculadora
                 resposta = Console.ReadLine();
 
                 switch(resposta){
-                    
+
                     case "1":
                     Console.Clear();
                     System.Console.WriteLine("Digite o primeiro número:");
                     pi.num[0] = Double.Parse(Console.ReadLine());
                     System.Console.WriteLine("Digite o segundo número:");
                     pi.num[1] = Double.Parse(Console.ReadLine());
-                    System.Console.WriteLine($"\nSeu resultado da soma é {pi.Soma()}.");
+                    System.Console.WriteLine($"\nSeu resultado da soma é {pi.Somar()}.");
                     break;
 
                     case "2":
@@ -38,7 +38,7 @@ namespace Aula09Calculadora
                     pi.num[0] = Double.Parse(Console.ReadLine());
                     System.Console.WriteLine("Digite o segundo número:");
                     pi.num[1] = Double.Parse(Console.ReadLine());
-                    System.Console.WriteLine($"\nSeu resultado da subtração é {pi.Subtracao()}.");
+                    System.Console.WriteLine($"\nSeu resultado da subtração é {pi.Subtrair()}.");
                     break;
 
                     case "3":
@@ -47,7 +47,7 @@ namespace Aula09Calculadora
                     pi.num[0] = Double.Parse(Console.ReadLine());
                     System.Console.WriteLine("Digite o segundo número:");
                     pi.num[1] = Double.Parse(Console.ReadLine());
-                    System.Console.WriteLine($"\nSeu resultado da divisão é {pi.Divisao()}.");
+                    System.Console.WriteLine($"\nSeu resultado da divisão é {pi.Dividir()}.");
                     break;
 
                     case "4":
@@ -56,7 +56,7 @@ namespace Aula09Calculadora
                     pi.num[0] = Double.Parse(Console.ReadLine());
                     System.Console.WriteLine("Digite o segundo número:");
                     pi.num[1] = Double.Parse(Console.ReadLine());
-                    System.Console.WriteLine($"\nSeu resultado da multiplicação é {pi.Multiplicacao()}.");
+                    System.Console.WriteLine($"\nSeu resultado da multiplicação é {pi.Multiplicar()}.");
                     break;
 
                     case "5":
