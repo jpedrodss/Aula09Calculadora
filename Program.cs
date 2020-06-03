@@ -22,6 +22,7 @@ namespace Aula09Calculadora
                 resposta = Console.ReadLine();
 
                 switch(resposta){
+                    
                     case "1":
                     Console.Clear();
                     System.Console.WriteLine("Digite o primeiro número:");
@@ -30,6 +31,7 @@ namespace Aula09Calculadora
                     pi.num[1] = Double.Parse(Console.ReadLine());
                     System.Console.WriteLine($"\nSeu resultado da soma é {pi.Soma()}.");
                     break;
+
                     case "2":
                     Console.Clear();
                     System.Console.WriteLine("Digite o primeiro número:");
@@ -38,6 +40,7 @@ namespace Aula09Calculadora
                     pi.num[1] = Double.Parse(Console.ReadLine());
                     System.Console.WriteLine($"\nSeu resultado da subtração é {pi.Subtracao()}.");
                     break;
+
                     case "3":
                     Console.Clear();
                     System.Console.WriteLine("Digite o primeiro número:");
@@ -46,6 +49,7 @@ namespace Aula09Calculadora
                     pi.num[1] = Double.Parse(Console.ReadLine());
                     System.Console.WriteLine($"\nSeu resultado da divisão é {pi.Divisao()}.");
                     break;
+
                     case "4":
                     Console.Clear();
                     System.Console.WriteLine("Digite o primeiro número:");
@@ -54,6 +58,7 @@ namespace Aula09Calculadora
                     pi.num[1] = Double.Parse(Console.ReadLine());
                     System.Console.WriteLine($"\nSeu resultado da multiplicação é {pi.Multiplicacao()}.");
                     break;
+
                     case "5":
                     Console.Clear();
                     System.Console.WriteLine("Digite os números:");

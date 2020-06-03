@@ -9,7 +9,7 @@ namespace Aula09Calculadora
             return num[0] + num[1];
         }
         public double Subtracao(){
-            return num[0]- num[1];
+            return num[0] - num[1];
         }
         public double Divisao(){
             return num[0] / num[1];
